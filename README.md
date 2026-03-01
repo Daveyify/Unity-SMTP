@@ -1,5 +1,5 @@
-Sistema de notificación por correo 
-Integración protocolo SMTP y Unity
+# Sistema de notificación por correo 
+### Integración protocolo SMTP y Unity
 
 
 El sistema envía notificaciones automáticas por correo electrónico cuando se cumplen las siguientes condiciones dentro del juego:
@@ -21,7 +21,7 @@ Cuando se alcanza una condición:
 El envío de correos utiliza el protocolo SMTP mediante la clase SmtpClient.
 
 
-Flujo general:
+### Flujo general:
 
 1. El jugador ingresa su correo en un TMP_InputField.
 2. El UIManager guarda ese correo en GameManager.playerEmail.
