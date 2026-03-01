@@ -895,7 +895,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 16.150024}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 343, y: 50}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &914515474
 MonoBehaviour:
@@ -926,7 +926,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4282449664
   m_fontColor: {r: 0, g: 1, b: 0.25136662, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
