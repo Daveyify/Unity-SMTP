@@ -6,17 +6,17 @@ using UnityEngine;
 public class SimpleEmailSender
 {
 
-    public void SendEmail()
+    public void SendEmail(string subject, string body)
     {
-        string fromEmail = "ingmultimediausbbog@gmail.com";
-        string password = "fsjq ioqf zsxs jrzf";
+        string fromEmail = "davidesuancha1206@gmail.com";
+        string password = "nkbe tlld wmcm dooj";
         string toEmail = GameManager.Instance.playerEmail;
 
         MailMessage mail = new MailMessage();
         mail.From = new MailAddress(fromEmail);
         mail.To.Add(toEmail);
-        mail.Subject = "Subject";
-        mail.Body = "Body";
+        mail.Subject = subject;
+        mail.Body = body;
 
         SmtpClient smtp = new SmtpClient("smtp.gmail.com")
         {
