@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
     public int scoreCubes = 0;
     public int scoreSpheres = 0;
 
+    public string playerEmail;
+
     private void Awake()
     {
         if (Instance == null)
